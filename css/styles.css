@@ -1,0 +1,173 @@
+body {
+    background: #f0f0f0;
+    font-size: 1em;
+    font-family: "Roboto", "-seriff";
+    padding-bottom: 4em;
+}
+
+.welcome-message {
+    text-align: center;
+    color: #4b5658;
+    padding-bottom: 4em;
+    background: white;
+    margin-top: 3em;
+    padding-top: 1em;
+}
+
+.presentation {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.ocupation {
+    margin-top: -0.5em;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.horizontal-bar {
+    background-image: url("/image/horizontal_bar.jpeg");
+    height: 9.5em;
+    width: 100%;
+}
+
+
+.pfp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pfp {
+    height: 15em;
+    position: absolute;
+    bottom: -3em;
+    padding: 5px 5px;
+    background: #f7f7f7;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.title-icon {
+    color: #bb2821;
+}
+
+.title-text {
+    font-weight: 500;
+    margin-left: 10px;
+    color: #1e1e1e;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.employment-container, .skills-container, .education-container {
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+.experience-main-container {
+    display: flex;
+}
+
+.experience-box {
+    padding: 15px;
+    border: 3px solid white;
+    background: #ececec;
+    margin-bottom: 1em;
+}
+.experience-logo {
+    height: 6em;
+}
+
+.experience-organization {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.experience-description, .education-description {
+    font-size: 0.9em;
+}
+
+.education-description {
+    margin-top: 1.5em;
+}
+
+.experience-description-paragraph, .education-description-paragraph {
+    margin-bottom: 1em;
+}
+
+.experience-description-paragraph:last-child .education-description-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.experience-main-text {
+    padding: 10px;
+}
+
+.experience-technlogies-type-container {
+    font-size: 0.8em;
+    display: flex;
+}
+
+.experience-technologies-used {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+
+.experience-icon-type {
+    font-size: 1.5em;
+    color: #c2272d;
+    margin-right: 10px;
+}
+
+.title-container {
+    margin-bottom: 1em;
+}
+
+.skill-container {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.skill-proficiency-level {
+    font-size: 0.8em;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.skill-advanced {
+    color: gold;
+}
+
+.skill-intermediate {
+    color: wheat;
+}
+
+.skill-beginner {
+    color: lightgray;
+}
+
+.skill-name {
+    color: white;
+    background: #c2272d;
+    flex: 1;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.current-box {
+    border: 3px solid #bfbfbf;
+}
