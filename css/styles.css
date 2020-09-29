@@ -140,11 +140,13 @@ body {
 
 .skill-proficiency-level {
     font-size: 0.8em;
-    background: black;
+    background: #600000;
     display: flex;
     align-items: center;
     padding: 10px;
     font-weight: 500;
+    width: 35%;
+    justify-content: center;
 }
 
 .skill-advanced {
@@ -166,6 +168,7 @@ body {
     padding: 10px;
     font-weight: 500;
     font-size: 1.1em;
+    text-align: center;
 }
 
 .current-box {
