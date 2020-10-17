@@ -22,12 +22,6 @@ html {
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 1200px) {
-  html {
-    font-size: 15px;
-  }
-}
-
 body {
   background: #f0f0f0;
   font-size: 1em;
@@ -242,4 +236,70 @@ body {
   cursor: pointer;
   transition: 0.3s all;
   color: gold;
+}
+
+.personal-projects-container {
+  margin: 0 4%;
+}
+
+.personal-projects-title {
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #1e1e1e;
+}
+
+.personal-projects-description {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.personal-projects {
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5%;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.project-box {
+	background: #f0f0f0;
+  box-shadow: 0 2px 2px 0 rgba(100, 100, 100, 0.14),0 3px 1px -2px rgba(109, 107, 107, 0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+  border: 3px solid white;
+}
+
+.project-image {
+	height: 9em;
+	width: 100%;
+}
+
+.wallet-background {
+  background: #333232;
+}
+
+.project-box, .project-box div, .project-description-container div {
+	margin: 0;
+}
+
+.project-box .project-title {
+	font-size: 1.4em;
+}
+
+.project-box .project-description {
+	margin: 1em 0;
+	font-size: 1em;
+}
+
+.project-box:hover {
+  transform: scale(1.05) translateZ(0);
+  transition: transform .2s ease;
+}
+
+.project-description-container {
+	padding: 0 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
 }
