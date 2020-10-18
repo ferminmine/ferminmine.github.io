@@ -298,8 +298,52 @@ body {
 	padding: 0 20px;
 }
 
-@media only screen and (min-width: 1200px) {
-  html {
-    font-size: 15px;
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  .personal-projects-container {
+    margin: 0 7%;
+  }
+
+  .personal-projects {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 8em;
+    padding: 0 10%;
+  }
+
+  .presentation {
+    font-size: 2.5em;
+  }
+
+  .ocupation {
+    font-size: 1.8em;
+  }
+
+  .horizontal-bar {
+    height: 7.5em;
+  }
+
+  .pfp {
+    height: 11em;
+    bottom: -2em;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .employment-container, .skills-container, .education-container {
+    margin: 2.5em auto;
+    width: 85%;
+  }
+
+  .title-container {
+    justify-content: center;
+  }
+
+  .contact-wrapper {
+    width: 60%;
   }
 }
