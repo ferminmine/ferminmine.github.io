@@ -110,6 +110,7 @@ body {
   background: #ececec;
   margin-bottom: 1em;
 }
+
 .experience-logo {
   height: 6em;
 }
@@ -296,6 +297,13 @@ body {
 
 .project-description-container {
 	padding: 0 20px;
+}
+
+.degree {
+	background: #fff2db;
+	color: #5a2800;
+	border: 0;
+  background-image: url("/image/scroll.gif");
 }
 
 @media only screen and (max-width: 1200px) {
