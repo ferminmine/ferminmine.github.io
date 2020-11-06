@@ -112,6 +112,10 @@ body {
   background-image: url("/image/paperboard-texture.jpg");
 }
 
+.currently-range {
+  font-weight: 500;
+}
+
 .experience-logo {
   height: 6em;
 }
@@ -200,10 +204,6 @@ body {
   font-weight: 500;
   font-size: 1.1em;
   text-align: center;
-}
-
-.current-box {
-  border: 3px solid #bfbfbf;
 }
 
 .contact-logo {
